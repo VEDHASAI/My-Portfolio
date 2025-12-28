@@ -157,8 +157,7 @@ ul {
     backdrop-filter: blur(5px);
     padding: var(--spacing-md) 0;
     position: fixed;
-    top: -17px;
-    bottom: 577px;
+    top: 0;
     width: 100%;
     z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -569,6 +568,8 @@ ul {
     border-radius: var(--radius-sm);
     background: rgba(255, 255, 255, 0.02);
     transition: 0.3s;
+    word-break: break-all;
+    max-width: 100%;
 }
 
 .contact-item:hover {
